@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 18px;
+    width: 80%
+    /* background-color: aqua; */
+}
+
+h1 {
+    color: greenyellow;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+    font-size: 25px;
+}
+
+.social-contact a {
+    padding-left: 13px;
+    font-size: 16px;
+    color: greenyellow;
+    text-decoration: none;
+}
+.social-contact a:hover {
+    color: blue;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.experience-content {
+    margin: 10px 8px;
+}
+
+.experience-title, 
+.education-title {
+    font-size: 20px;
+    margin-top: 6px;
+
+}
+.experience-duration {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.education-content {
+    margin: 10px 8px;
+}
+
+.education-title {
+    font-size: 20px;
+}
+.education-content .dot {
+    font-size: 30px;
+}
+
+.education-year {
+    font-size: 15px;
+}
+
+.skill{
+    display: flex;
+    font-size: 20px;
+    margin: 18px;
+    color: rgb(31, 10, 71);
+}
+
+.skills-icon {
+    color: greenyellow;
+    padding-right: 6px;
+}
+
+.project-item {
+    margin: 15px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+.project-title {
+    font-size: 20px;
+}
+
+.project-item a {
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.zuri .zuri-text {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+footer .zuri {
+    display: flex;
+   
+}
+
+.ingressive img {
+    width: 10%;
+}
+
+.ingressive .zuri-text {
+    padding-left: 10px;
+}
+
+.ingressive {
+    display: flex;
+}
+.hng img {
+    width: 20%;
+}
+
+.hng {
+    display: flex;
+}
+
+.contact-info {
+    padding: 10px;
+}
+
+.box {
+    display: flex;
+    padding: 10px;
+}
+
+.icon {
+    margin-top: 10px;
+    margin-right: 8px;
+    color: blue;
+}
+.icon:hover {
+    color: greenyellow;
+}
+
+
+.text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-form {
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    width: 45%;
+    padding: 40px;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    color: blue;
+    font-weight: 500;
+}
+
+
+.contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form .input-box input, 
+.contact-form .input-box textarea {
+    width: 100%;
+    padding:  5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: rgb(107, 76, 76);
+}
+
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box input:valid ~ span,
+.contact-form .input-box textarea:focus ~ span,
+.contact-form .input-box textarea:focus ~ span {
+    color: red;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type="submit"] {
+    width: 90px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
